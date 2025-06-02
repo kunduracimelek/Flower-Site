@@ -18,3 +18,4 @@ Bu proje, etkileyici bir **tek sayfalık çiçek satış sitesi** tasarlamak iç
 ## 💻 Kurulum ve Kullanım
 1. **Projeyi klonlayın**:
    ```sh
+   cd cicek-sepeti
