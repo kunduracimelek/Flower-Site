@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daisy's Garden</title>
+    <link rel="stylesheet" href="anasayfa.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#giris">Giriş</a></li>
+                <li><a href="#hakkimizda">Hakkımızda</a></li>
+                <li><a href="#urunler">Ürünler</a></li>
+                <li><a href="#iletisim">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="giris" class="hero">
+            <h1>Hoş Geldiniz!</h1>
+            <p>En özel çiçekleri bizimle keşfedin!</p><br>
+            <a href="#urunler" class="cta-button">Ürünleri Gör</a>
+        </section>
+
+        <section id="urunler">
+    <h2>🌸 Ürünlerimiz 🌸</h2>
+    <div class="product-grid">
+        <div class="product-item">
+            <img src="gül.jpg" alt="Gül Buketi">
+            <button onclick="showMeaning('Gül', 'Aşk ve tutkunun simgesidir.')">🌹 Gül Buketi</button>
+        </div>
+        <div class="product-item">
+            <img src="lale.jpg" alt="Lale Demeti">
+            <button onclick="showMeaning('Lale', 'Asalet ve zarafetin temsilcisidir.')">🌷 Lale Demeti</button>
+        </div>
+        <div class="product-item">
+            <img src="orkide.jpg" alt="Orkide Aranjmanı">
+            <button onclick="showMeaning('Orkide', 'Güzellik ve nadirliği ifade eder.')">🌼 Orkide Aranjmanı</button>
+        </div>
+        <div class="product-item">
+            <img src="papatya.jpg" alt="Papatya Buketi">
+            <button onclick="showMeaning('Papatya', 'Masumiyet ve saflık simgesidir.')">🌻 Papatya Buketi</button>
+        </div>
+        <div class="product-item">
+            <img src="nergis.jpg" alt="Sukulent Seti">
+            <button onclick="showMeaning('Sukulent', 'Dayanıklılık ve uzun ömürlülüğün sembolüdür.')">🌿 Sukulent Seti</button>
+        </div>
+        <div class="product-item">
+            <img src="lilyum.jpg" alt="Lilyum Buketi">
+            <button onclick="showMeaning('Lilyum', 'Saflık ve yeniden doğuş anlamını taşır.')">🌸 Lilyum Buketi</button>
+        </div>
+    </div>
+</section>
+
+        <section id="iletisim">
+    <h2>📞 Bize Ulaşın</h2>
+    <p>Her türlü sorunuz için bizimle rahatlıkla iletişime geçebilirsiniz.</p>
+    <form>
+        <label for="name">Adınız:</label>
+        <input type="text" id="name" placeholder="Adınızı girin" required>
+
+        <label for="email">E-posta:</label>
+        <input type="email" id="email" placeholder="E-posta adresiniz" required>
+
+        <label for="message">Mesajınız:</label>
+        <textarea id="message" placeholder="Mesajınızı yazın" required></textarea>
+
+        <button type="submit">Gönder</button>
+    </form>
+</section>
+    </main>
+    <footer>
+    <div class="footer-content">
+        <p>© 2025 Daisy's Garden | Tüm Hakları Saklıdır</p>
+        <div class="social-links">
+            <a href="https://tr.pinterest.com/Lover__Daisy/" target="_blank">Pinterest</a>
+            <a href="https://www.instagram.com/kunduraci_melek/" target="_blank">Instagram</a>
+            <a href="https://x.com/daisy_schuster3" target="_blank">Twitter</a>
+        </div>
+    </div>
+</footer>
+    <script src="anasayfa.js"></script>
+</body>
+</html>

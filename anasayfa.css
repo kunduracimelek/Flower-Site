@@ -1,0 +1,214 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #b34469af;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffccdd;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px;
+    background: linear-gradient(to right, #ff66993e, #b68b99f2);
+    color: white;
+}
+.hero h1, .hero p {
+    opacity: 0;
+    transform: translateY(-30px);
+}
+
+
+.cta-button {
+    background-color: white;
+    color: #cb4e78cd;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ffccdd;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    padding: 30px;
+}
+
+.product-item {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.product-item:hover {
+    transform: scale(1.05);
+}
+
+.product-item img {
+    width: 100%; 
+    max-height: 250px; 
+    object-fit: cover;
+    border-radius: 10px; 
+    display: block;
+}
+
+
+.product-item button {
+    background-color: #cf4f7aac;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 6px;
+    transition: background 0.3s ease-in-out;
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.product-item button:hover {
+    background-color: #ff3366;
+}
+
+/*iletişim bölümü*/
+
+ #iletisim {
+    padding: 50px;
+    text-align: center;
+    background: #ddb2c17c;
+    border-radius: 10px;
+    margin: 40px auto;
+    width: 80%;
+}
+
+#iletisim h2 {
+    color: #ba4461cf;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#iletisim p {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form label {
+    font-weight: bold;
+    color: #333;
+    text-align: left;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+form textarea {
+    height: 120px;
+    resize: none;
+}
+
+form button {
+    background-color: #bd4d69b1;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 6px;
+    transition: background 0.3s ease-in-out;
+}
+
+form button:hover {
+    background-color: #ff6699;
+}
+.success-message {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #a7285297;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: opacity 1s ease-in-out;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+}
+
+/*footer kodları */
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-links a {
+    color: #ffccdd;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #ff6699;
+}
+
+
